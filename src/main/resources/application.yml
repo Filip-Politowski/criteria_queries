@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: criteria-query
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/criteria_query
+    username: user
+    password: password
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+    show-sql: true
